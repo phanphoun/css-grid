@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1fr 0.3fr;
+    grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+    row-gap: 50px;
+
+
+}
+header {
+    grid-area: header;
+    background-color: #0a6344;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    z-index: 1000;
+
+}
+
+.content-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phic-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.phar-logo {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 2px 1px blue;
+    text-transform: uppercase;
+}
+
+
+.link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link li {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link li:hover {
+    width: 150px;
+    height: 50px;
+    box-shadow: 0 4px 6px #aaffd8;
+    border-radius: 16px;
+
+}
+
+.link li .phar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-btn,
+.signin-btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 16px;
+    border: none;
+    background-color: #aaffd8;
+}
+
+.phar-login,
+.phar-signin {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
