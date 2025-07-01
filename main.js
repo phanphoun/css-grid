@@ -3,7 +3,7 @@ document.getElementById('onclick').addEventListener('click', function () {
     
 });
 document.getElementById('clicknow').addEventListener('click', function () {
-    alert(about.html);
+    alert("Please wait while we are preparing for you!");
 });
 
 

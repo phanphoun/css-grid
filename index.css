@@ -56,7 +56,6 @@ header {
     text-transform: uppercase;
 }
 
-.nav-link {}
 
 .link {
     display: flex;
@@ -70,12 +69,13 @@ header {
     justify-content: center;
     align-items: center;
 }
-.link li:hover{
+
+.link li:hover {
     width: 150px;
     height: 50px;
     box-shadow: 0 4px 6px #aaffd8;
     border-radius: 16px;
-    
+
 }
 
 .link li .phar-link {
@@ -124,8 +124,6 @@ main {
     display: grid;
     grid-template-columns: 1fr 0.6fr;
     grid-template-rows: 1fr;
-    grid-area:
-
 }
 
 
@@ -133,66 +131,75 @@ main {
 .left {
     background-color: #aaffd8;
 }
-.hero-s{
+
+.hero-s {
     width: 100%;
     height: auto;
-    margin:20px;
+    margin: 20px;
 }
-.phar-s{
+
+.phar-s {
     display: block;
     line-height: 4rem;
 }
-.s1-phar-h2{
+
+.s1-phar-h2 {
     font-size: 2.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+
 
 }
-.s1-phar-h3{
+
+.s1-phar-h3 {
     font-size: 3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-.s1-phar-h4{
+
+.s1-phar-h4 {
     font-size: 1.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-.s1-phar-h2, .s1-phar-h3, .s1-phar-h4 {
-    color:black;
+
+.s1-phar-h2,
+.s1-phar-h3,
+.s1-phar-h4 {
+    color: black;
     /* text-shadow: 2px 4px 2px white; */
 }
-.btn-social{
 
-}
-.btn-s{
+/* .btn-social rule removed as it was empty */
+.btn-s {
     width: 180px;
     height: 60px;
     border-radius: 16px;
-    border:1px solid #0a6344;
+    border: 1px solid #0a6344;
 }
 
-.phar-s{
+.phar-s {
     font-size: 1.2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
-    
-    
+
+
 }
 
 
-.social{
+.social {
     display: flex;
-    justify-content:start;
+    justify-content: start;
     align-items: center;
-    gap:16px;
+    gap: 16px;
 
 }
-.social-icon{
+
+.social-icon {
     width: 45px;
     height: 45px;
     margin-top: 20px;
 }
+
 /* ===================left End================ */
 
 
@@ -200,70 +207,109 @@ main {
 /* ================right start================ */
 .right {
     background-color: #aaffd8;
-    
+
 }
-.right-image{
+
+.right-image {
     width: 350px;
     height: 400px;
-    margin:20px;
+    margin: 20px;
 }
+
 /* ==================right End================== */
 
 
 /* =====================content2 start============= */
-.content2{
-    background-color:#aaffd8;
+.content2 {
+    background-color: #aaffd8;
 }
-.info{
+
+.info {
     width: 100%;
     height: 400px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows:1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
     justify-content: center;
     align-content: center;
-    
+
 }
-.card{
+
+.card {
     width: 200px;
     height: 300px;
     background-color: white;
     margin-left: 50px;
     box-shadow: 4px 6px 4px #0a6344;
     border-radius: 16px;
-    
-    
-    
+
+
+
 }
-.im{
+
+.im {
     width: 100%;
     height: 170px;
- 
-    
+
+
 }
-.card-img{
+
+.card-img {
     width: 100px;
     height: 100px;
-    margin:45px;
+    margin: 45px;
 }
-.phar{
+
+.phar {
     margin-top: 0;
     margin-left: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.card-btn{
+.card-btn {
     width: 100px;
     height: 35px;
     /* border:1px solid forestgreen;
     border-radius: 16px; */
-    margin-left:15px;
+    margin-left: 15px;
 }
-.a{
+
+.a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+
 /* =================content2 End================== */
+
+
+
+/* ===============content3 start================== */
+.content3 {
+    background-color: #aaffd8;
+}
+
+.inform {
+    width: 100%;
+    height: 400px;
+
+}
+.card-s3 img{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -317,7 +363,8 @@ footer {
     width: 150px;
     height: 45px;
 }
-.link-footer li:hover{
+
+.link-footer li:hover {
     box-shadow: 0 4px 6px #aaffd8;
     border-radius: 16px;
 }
@@ -329,4 +376,5 @@ footer {
     text-decoration: none;
     line-height: 2rem;
 }
+
 /* ============footer End================ */
